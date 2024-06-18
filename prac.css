@@ -1,0 +1,106 @@
+.html {
+    min-height: 100% !important;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100%;
+    background: grey no-repeat fixed;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(images/1674270846_catherineasquithgallery-com-p-serii-fon-s-detalyami-foto-17.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 70px;
+}
+header {
+    background-color: black;
+    min-width: 320px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px rgb(76, 0, 255) solid; */
+    text-align: center;
+
+}
+.logo{
+    float: left;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.logoname{
+    float: left;
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+ul {
+    margin: 30px 0 0 0;
+    list-style-type: none;
+}
+li {
+    float: left;
+    margin: 0 30px;
+    cursor: pointer;
+}
+nav{
+    margin: 0 0 0 600px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 800px;
+
+    margin: 150px 0 0 0;
+    text-align: left;
+}
+
+section h1{
+    letter-spacing: 5px;
+}
+section p{
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+    border: 0px;
+    opacity: 1;
+    width: 250px;
+    height:60px;
+    margin-top: 40px;
+    background-color: rgb(199, 160, 130); 
+    color: rgb(255, 255, 255);
+}
+.clocks{
+    height: 900;
+    width:1100px;
+}
+
+.div {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    color:rgb(199, 160, 130);
+}
